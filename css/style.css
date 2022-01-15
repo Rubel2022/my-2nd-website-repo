@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+/*----------header start-----*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+}
+
+nav .manu ul {
+    display: flex;
+}
+
+nav .manu ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav .manu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*----------header end-----*/
+
+/* ------------influencer-container start ----------*/
+.influencer-container {
+    display: flex;
+    width: 960px;
+    position: relative;
+    top: 150px;
+    left: 130px
+}
+
+.left-content h1 {
+    font-size: 50px;
+    padding: 10px;
+    color: #2d1b1b;
+
+}
+
+.left-content p {
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.left-content p {}
+
+.right-image img {
+    width: 300px;
+    position: relative;
+    left: 110px;
+}
+
+.left-content a {
+    padding: 10px 20px;
+    background: #131212;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 8px;
+    position: relative;
+    top: 20px;
+}
+
+.left-content a:hover {
+    background-color: lightgrey;
+}
+
+.left-content span {
+    position: relative;
+    left: 8px;
+    top: 2px;
+}
+
+/* ------------influencer-container end ----------*/
+/*------------- popular-collection section start---------- */
+.popular-blog {
+    position: relative;
+    top: 245px;
+}
+
+#head-title {
+    color: rgb(80, 70, 130);
+    font-size: 45px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.product-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 20px;
+    position: relative;
+    margin-left: 132px;
+    margin-right: 158px;
+    background-color: #f2ebeb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-name {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 3px 3px #9f9999;
+}
+
+.banner-product img {
+    width: 280px;
+    height: 200px;
+}
+
+.product-details {
+    padding: 10px;
+}
+
+.product-details h1 {
+    margin-bottom: 15px;
+    ;
+}
+
+.product-details h2 {
+    margin-bottom: 5px;
+}
+
+.product-details h3 {
+    color: gray;
+}
+
+.product-info {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.product-info p {
+    margin-left: 5px;
+}
+
+.filled {
+    color: #f7db46;
+
+}
+
+.popular-blog a {
+    position: relative;
+    left: 1077px;
+    font-size: 22px;
+    top: 20px;
+    margin-bottom: 58px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 56px;
+    color: #e11038;
+    font-weight: bold;
+}
+
+.popular-blog a:hover {
+    color: #cf8c98;
+    font-weight: bold;
+
+}
+
+/*------------- popular-collection section end---------- */
