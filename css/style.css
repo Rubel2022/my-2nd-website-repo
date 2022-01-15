@@ -6,6 +6,8 @@
 body {}
 
 /*----------header start-----*/
+
+
 .full-nav {
     display: flex;
     justify-content: space-between;
@@ -24,7 +26,6 @@ body {}
 nav .manu ul {
     display: flex;
     margin-top: 10px;
-    background: black;
     border-radius: 5px;
     margin-right: 15px;
     margin-left: 65px;
@@ -41,7 +42,7 @@ nav .manu ul li a {
     padding: 8px;
     font-size: 27px;
     display: inline-block;
-    color: #fff;
+    color: rgb(29, 25, 25);
 }
 
 nav .manu ul li a:hover {
@@ -101,6 +102,11 @@ nav .manu ul li a:hover {
     position: relative;
     left: 8px;
     top: 2px;
+}
+
+.right-image:hover img {
+    transform: scale(1.5);
+    transition: 1.5s ease;
 }
 
 /* ------------influencer-container end ----------*/
