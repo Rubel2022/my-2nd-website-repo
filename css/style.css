@@ -174,3 +174,32 @@ nav .manu ul li a {
 }
 
 /*------------- popular-collection section end---------- */
+/*------ footer style start---- */
+.footer {
+    text-align: center;
+    background: #242120;
+    position: relative;
+    top: 236px;
+    padding: 45px;
+    color: white;
+}
+
+.footer-content h1 {
+    margin-bottom: 5px;
+}
+
+.footer-icon {
+    position: relative;
+    top: 25px;
+    position: relative;
+
+}
+
+.footer-icon a {
+    color: #fff;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 24px;
+}
+
+/*------ footer style end---- */
